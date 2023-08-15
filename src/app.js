@@ -2,7 +2,6 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import ReactDOM from "react-dom/client";
 import Home from './components/Home'
-// import About from './components/About'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
