@@ -56,7 +56,7 @@ const Contact = () => {
           <div className="gap-40 mt-[82px] flex justify-center items-center ">
           <button>
                <a
-                 href="https://github.com/Himanshu0599""
+                 href="https://github.com/Himanshu0599"
                  target="_blank"
                  rel="noreferrer"
                >
