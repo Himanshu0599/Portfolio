@@ -1,9 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import developerImg from '../Assets/programmer2.svg'
+import Skill from './Skills';
+import Projects from './Projects';
 
 function Home() {
   return (
+    <>
     <div className="home bg-black/90 w-screen h-screen overflow-hidden flex justify-between">
       <motion.div
         initial={{ y: 100, opacity: 0 }}
@@ -52,6 +55,7 @@ function Home() {
         />
       </motion.div>
     </div>
+    </>
   );
 }
 

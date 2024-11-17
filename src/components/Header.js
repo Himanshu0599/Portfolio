@@ -10,10 +10,9 @@ const navigation = [
   { name: 'CONTACT', href: '/contact', current: false },
   { name: 'RESUME', href: 'https://drive.google.com/uc?id=1Mh3jjpXgMLipZYbVw139XKYx1iefpnTu', isButton: true },
   
-
 ];
 
-export default function Example() {
+export default function Header() {
   return (
     <nav className="bg-gray-800 fixed top-0 left-0 w-full z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
